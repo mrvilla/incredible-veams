@@ -1,0 +1,16 @@
+---
+publish: false
+---
+<fieldset class="form__fieldset{{#if settings.fieldsetClasses}} {{settings.fieldsetClasses}}{{/if}}">
+	{{#if content.legend}}
+		<legend class="form__legend{{#if settings.legendClasses}} {{settings.legendClasses}}{{/if}}">
+			Fieldset {{content.legend}}
+			{{#if content.requiredNote}}
+				<em class="form__required-note">{{content.requiredNote}}</em>
+			{{/if}}
+		</legend>{{/if}}
+
+	{{#each content.rows}}
+		{{>c-form__row this}}
+	{{/each}}
+</fieldset>

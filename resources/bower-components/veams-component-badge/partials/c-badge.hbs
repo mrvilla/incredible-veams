@@ -1,0 +1,19 @@
+---
+type: component
+contextData: "badge-bp"
+layout: "lyt-docs"
+publish: true
+scssFiles:
+- _c-badge.scss
+---
+
+{{#unless content.badgeType}}
+	<h2 style="color: red">Please provide a badge type!</h2>
+{{/unless}}
+
+<div class="c-badge{{#if settings.badgeContextClass}}--{{setting.badgeContextClass}}{{else}}--default{{/if}}{{#if settings.badgeClasses}} {{settings.badgeClasses}}{{/if}}"
+     data-css="c-badge">
+	<span class="badge__content{{#if content.badgeType}} is-{{content.badgeType}}{{/if}}">
+		{{content.badgeContent}}
+	</span>
+</div>

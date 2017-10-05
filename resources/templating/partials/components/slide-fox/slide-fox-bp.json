@@ -1,0 +1,18 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Slide Fox (Default)",
+				"sectionCenter": true
+			},
+			"settings": {
+				"slideFoxContextClass": "default",
+				"slideFoxClasses": false
+			},
+			"content": {
+				"heading": "Demo text to see the slide fox in action!",
+				"contentText": "Intuition is fucking important. While having drinks with Tibor Kalman one night, he told me, “When you make something no one hates, no one fucking loves it.” You won’t get good at anything by doing it a lot fucking aimlessly. Design as if your fucking life depended on it. The details are not the details. They make the fucking design. Why are you fucking reading all of this? Get back to work. Fuck. Dedicate yourself to lifelong fucking learning. This design is fucking brilliant. Never, never assume that what you have achieved is fucking good enough. Must-do is a good fucking master. Learn from fucking criticism. Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.” Can we all just agree as the greater design community to stop fucking talking about Comic Sans altogether? It’s getting fucking old. Don’t fucking lie to yourself. You need to sit down and sketch more fucking ideas because stalking your ex on facebook isn’t going to get you anywhere. Think about all the fucking possibilities. Don’t get hung up on things that don’t fucking work. If you’re not being fucking honest with yourself how could you ever hope to communicate something meaningful to someone else? Use your fucking hands. Design is all about fucking relationships—the relationship of form and content, the relationship of elements, the relationship of designer and user. The graphic designer’s first fucking consideration is always the size and shape of the format, whether for the printed page or for digital display. If you fucking give up, you will achieve nothing. When you sit down to work, external critics aren’t the enemy."
+			}
+		}
+	}
+}

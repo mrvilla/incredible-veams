@@ -1,0 +1,29 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Article with all fields",
+				"sectionCenter": true
+			},
+			"settings": {
+				"articleContextClass": false,
+				"articleClasses": "is-bg-higlight-1",
+				"articleContentClasses": "is-visible",
+				"articleHeaderClasses": "is-header",
+				"articleFooterClasses": "is-margin"
+			},
+			"content": {
+				"articleHeader": {
+					"articleDate": "11/16/2016",
+					"articleH1": "Article Headline",
+					"articleH2": "Article Subline",
+					"articleIntro": "This is an intro text which can be used in every article component."
+				},
+				"articleFooter": {
+					"articleFooterLink": "#",
+					"articleFooterLinkText": "Footer Link in Article"
+				}
+			}
+		}
+	}
+}

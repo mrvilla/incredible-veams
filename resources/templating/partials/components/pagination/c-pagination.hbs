@@ -1,0 +1,43 @@
+---
+type: component
+contextData: "pagination-bp"
+layout: "lyt-docs"
+publish: true
+scssFiles:
+- _c-pagination.scss
+---
+<div class="c-pagination{{#if settings.pagContextClass}}--{{settings.pagContextClass}}{{else}}--default{{/if}}{{#if
+		settings.pagClasses}} {{settings.pagClasses}}{{/if}}" data-css="c-pagination">
+	<ul class="pagination__list">
+		{{#if content.pagButtons}}
+			<li class="pagination__list-item is-disabled">
+				<strong class="pagination__list-element is-previous"><span
+						class="is-hidden">{{content.pagButtons.description}}</span>{{content.pagButtons.previous}}
+				</strong>
+			</li>
+		{{/if}}
+
+		<li class="pagination__list-item is-active">
+			<span class="is-hidden">{{content.pagCurrent}}</span> <strong class="pagination__list-element">1</strong>
+		</li>
+		<li class="pagination__list-item">
+			<a class="pagination__list-element" href="#">2</a>
+		</li>
+		<li class="pagination__list-item">
+			<a class="pagination__list-element" href="#">3</a>
+		</li>
+		<li class="pagination__list-item is-more">
+			<a class="pagination__list-element" href="#">...</a>
+		</li>
+		<li class="pagination__list-item">
+			<a class="pagination__list-element" href="#">{{content.pagMax}}</a>
+		</li>
+		{{#if content.pagButtons}}
+			<li class="pagination__list-item">
+				<a class="pagination__list-element is-next" href="#" title="One Page Forward">
+					<span class="is-hidden">{{content.pagButtons.description}}</span>{{content.pagButtons.next}}
+				</a>
+			</li>
+		{{/if}}
+	</ul>
+</div>

@@ -1,0 +1,22 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Default",
+				"sectionCenter": true
+			},
+			"settings": {
+				"togglerContextClass": "default",
+				"togglerClasses": false,
+				"togglerJsModule": true,
+				"togglerJsOptions": {
+					"globalEvent": "toggler:toggle"
+				}
+			},
+			"content": {
+				"heading": "Lorem fucking ipsum",
+				"text": "Stop clicking your mouse, get messy, go back to the basics and make something fucking original. Don’t worry about what other people fucking think. When you sit down to work, external critics aren’t the enemy. It’s you who you must to fight against to do great fucking work. You must overcome yourself."
+			}
+		}
+	}
+}

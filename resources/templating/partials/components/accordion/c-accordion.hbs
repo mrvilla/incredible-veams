@@ -1,0 +1,7 @@
+
+<div class="c-accordion{{#if options.settings.accContextClass}}--{{options.settings.accContextClass}}{{else}}--default{{/if}}{{#if options.settings.accClasses}} {{options.settings.accClasses}}{{/if}}"
+     data-css="c-accordion"
+     data-js-module="accordion"{{#if options.settings.accJsOptions}}
+     data-js-options='{{stringify options.settings.accJsOptions}}'{{/if}} role="tablist">
+	{{{yield}}}
+</div>

@@ -1,0 +1,30 @@
+{
+  "name": "veams-component-rte",
+  "version": "3.0.0",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-rte.git"
+  },
+  "homepage": "https://github.com/Veams/veams-component-rte",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "5af2443314a93ae8d816a5f7976106d11d2b268c"
+  },
+  "_source": "https://github.com/Veams/veams-component-rte.git",
+  "_target": "^3.0.0",
+  "_originalSource": "veams-component-rte",
+  "_direct": true
+}

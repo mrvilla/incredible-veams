@@ -1,0 +1,18 @@
+---
+publish: false
+---
+<div class="form__textarea">
+	<div class="form__label-wrapper">
+		<label for="{{settings.id}}" class="form__textarea-label">
+			{{content.label}} {{#is settings.required "required"}}<abbr title="Required">*</abbr>{{/is}}
+		</label>
+	</div>
+	<div class="form__textarea-wrapper">
+		<textarea class="form__textarea-input" id="{{id}}" rows="5"
+			{{#if content.placeholder}} placeholder="{{content.placeholder}}"{{/if}}
+			{{#if settings.minlength}} data-minlength="{{settings.minlength}}"{{/if}}
+			{{#if settings.maxlength}} data-maxlength="{{settings.maxlength}}"{{/if}}
+			{{#if content.dataErrormessage}} data-errormessage="{{content.dataErrormessage}}"{{/if}}
+			{{#if settings.required}} required="required"{{/if}}></textarea>
+	</div>
+</div>

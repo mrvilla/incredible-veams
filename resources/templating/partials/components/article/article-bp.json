@@ -1,0 +1,60 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Article with all fields",
+				"sectionCenter": true
+			},
+			"settings": {
+				"articleContextClass": false,
+				"articleClasses": "is-bg-higlight-1",
+				"articleContentClasses": "is-visible",
+				"articleHeaderClasses": "is-header",
+				"articleFooterClasses": "is-margin"
+			},
+			"content": {
+				"articleHeader": {
+					"articleDate": "11/16/2016",
+					"articleH1": "Article Headline",
+					"articleH2": "Article Subline",
+					"articleIntro": "This is an intro text which can be used in every article component."
+				},
+				"articleBody": {
+					"articleText": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+				},
+				"articleFooter": {
+					"articleFooterLink": "#",
+					"articleFooterLinkText": "Footer Link in Article"
+				}
+			}
+		},
+		"slideFox": {
+			"docs": {
+				"variationName": "Article with all fields",
+				"sectionCenter": true
+			},
+			"settings": {
+				"articleContextClass": false,
+				"articleClasses": "is-bg-higlight-1",
+				"articleContentClasses": "is-visible",
+				"articleHeaderClasses": "is-header",
+				"articleFooterClasses": "is-margin"
+			},
+			"content": {
+				"articleHeader": {
+					"articleDate": "11/16/2016",
+					"articleH1": "Article Headline",
+					"articleH2": "Article Subline",
+					"articleIntro": "This is an intro text which can be used in every article component."
+				},
+				"articleBody": {
+					"articleText": "A good fucking composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Can we all just agree as the greater design community to stop fucking talking about Comic Sans altogether? It’s getting fucking old. You are not your fucking work. Must-do is a good fucking master. To go partway is easy, but mastering anything requires hard fucking work. "
+				},
+				"articleFooter": {
+					"articleFooterLink": "#",
+					"articleFooterLinkText": "Footer Link in Article"
+				}
+			}
+		}
+	}
+}

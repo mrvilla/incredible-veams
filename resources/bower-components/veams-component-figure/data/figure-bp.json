@@ -1,0 +1,143 @@
+{
+	"variations": {
+		"simple": {
+			"docs": {
+				"variationName": "Default with picture"
+			},
+			"settings": {
+				"figureId": "figure-content",
+				"figureContextClass": "simple"
+			},
+			"content": {
+				"figurePicture": {
+					"settings": {
+						"pictureContextClass": "default",
+						"pictureClasses": false,
+						"lazyload": true
+					},
+					"content": {
+						"fallbackSrc": "http://placehold.it/40x10",
+						"alt": "Alternative text that describes the image",
+						"items": [
+							{
+								"srcset": [
+									{
+										"src": "http://placehold.it/400x300",
+										"imageWidth": "400w"
+									},
+									{
+										"src": "http://placehold.it/700x300",
+										"imageWidth": "700w"
+									},
+									{
+										"src": "http://placehold.it/800x400",
+										"imageWidth": "800w"
+									},
+									{
+										"src": "http://placehold.it/960x300",
+										"imageWidth": "960w"
+									},
+									{
+										"src": "http://placehold.it/1400x400",
+										"imageWidth": "1000w"
+									},
+									{
+										"src": "http://placehold.it/1920x500",
+										"imageWidth": "1920w"
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		"caption": {
+			"docs": {
+				"variationName": "Picture and caption"
+			},
+			"settings": {
+				"figureId": "figure-caption",
+				"figureContextClass": "caption"
+			},
+			"content": {
+				"figureCaption": {
+					"captionHeadline": "My custom picture with caption",
+					"captionContent": "and custom content"
+				},
+				"figurePicture": {
+					"settings": {
+						"pictureContextClass": "default",
+						"pictureClasses": false,
+						"lazyload": true
+					},
+					"content": {
+						"fallbackSrc": "http://placehold.it/40x10",
+						"alt": "Alternative text that describes the image",
+						"items": [
+							{
+								"srcset": [
+									{
+										"src": "http://placehold.it/400x300",
+										"imageWidth": "400w"
+									},
+									{
+										"src": "http://placehold.it/700x300",
+										"imageWidth": "700w"
+									},
+									{
+										"src": "http://placehold.it/800x400",
+										"imageWidth": "800w"
+									},
+									{
+										"src": "http://placehold.it/960x300",
+										"imageWidth": "960w"
+									},
+									{
+										"src": "http://placehold.it/1400x400",
+										"imageWidth": "1000w"
+									},
+									{
+										"src": "http://placehold.it/1920x500",
+										"imageWidth": "1920w"
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		"video": {
+			"docs": {
+				"variationName": "Video and caption",
+				"sectionCenter": true
+			},
+			"settings": {
+				"figureContextClass": "video"
+			},
+			"content": {
+				"figureCaption": {
+					"captionHeadline": "My custom video with caption"
+				},
+				"figureVideo": {
+					"settings": {
+						"videoContextClass": false,
+						"videoClasses": false,
+						"videoOptions": "controls buffer"
+					},
+					"content": {
+						"videoPoster": "http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg",
+						"videoMp4": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
+						"videoWebm": "http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm",
+						"videoTrack": {
+							"trackSubtitle": false,
+							"trackLang": false,
+							"trackLabel": false
+						}
+					}
+				}
+			}
+		}
+	}
+}

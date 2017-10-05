@@ -1,0 +1,36 @@
+---
+type: component
+layout: "lyt-docs"
+contextData: table-bp
+subTemplates:
+- c-table__row
+- c-table__cell
+scssFiles:
+- _c-table.scss
+---
+
+<div class="c-table{{#if settings.tableContextClass}}--{{settings.tableContextClass}}{{/if}}{{#if
+		settings.tableClasses}} {{settings.tableClasses}}{{/if}}"
+     data-css="c-table">
+	<table class="table__content">
+		{{#if content.tableCaption}}
+			<caption class="table__caption">
+				{{ content.tableCaption}}
+			</caption>
+		{{/if}}
+
+		{{#if content.tableHeader}}
+			<thead class="table__head">
+				{{#each content.tableHeader.tableRows}}
+					{{> c-table__row settings=this.settings content=this.content }}
+				{{/each}}
+			</thead>
+		{{/if}}
+
+		<tbody class="table__body">
+			{{#each content.tableBody.tableRows}}
+				{{> c-table__row settings=this.settings content=this.content }}
+			{{/each}}
+		</tbody>
+	</table>
+</div>

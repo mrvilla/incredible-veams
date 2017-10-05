@@ -1,0 +1,82 @@
+/* ===================================================
+ARTICLE COMPONENT
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-article"] {
+
+	background: $lighten-grey;
+	padding: 0.5em;
+	/*
+	Header
+	----------------------- */
+	.article__header {
+	}
+
+	.article__header-time {
+	}
+
+	.article__header-headline {
+
+	}
+
+	.article__header-subline {
+	}
+
+	.article__header-intro {
+	}
+
+	/*
+	Content
+	----------------------- */
+	.article__content {
+	}
+
+	/*
+	Footer
+	----------------------- */
+	.article__footer {
+	}
+
+	.article__footer-link {
+	}
+}
+
+/* ---------------------------------------------------
+Context: Default Example
+--------------------------------------------------- */
+.c-article--default {
+	/*
+	Header
+	----------------------- */
+	.article__header {
+		margin-bottom: 3rem;
+	}
+
+	.article__header-time {
+		font-size: 1.2rem;
+	}
+
+	.article__header-headline {
+		font-size: 2.8rem;
+		margin-bottom: 1.15rem;
+	}
+
+	.article__header-subline {
+		font-size: 2.2rem;
+		margin-bottom: .75rem;
+	}
+
+	.article__header-intro {
+		font-size: 2rem;
+		font-weight: 900;
+	}
+
+
+	.article__footer {
+		margin-top: 3rem;
+	}
+
+}

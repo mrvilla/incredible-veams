@@ -1,0 +1,26 @@
+/* ===================================================
+COMPONENT: SLIDE FOX
+=================================================== */
+
+/* ---------------------------------------------------
+Global Variables
+--------------------------------------------------- */
+
+// Animation Variables
+$slide-fox-duration: 1000ms !default;
+$slide-fox-ease-method: ease !default;
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+
+[data-css="c-slide-fox"] {
+	transition: transform $slide-fox-duration $slide-fox-ease-method, opacity $slide-fox-duration $slide-fox-ease-method;
+	transform: translate3d(0, 100%, 0);
+	opacity: 0;
+
+	&.is-visible {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}

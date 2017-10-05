@@ -1,0 +1,50 @@
+{
+	"variations": {
+		"simple": {
+			"docs": {
+				"variationName": "Simple Accordion"
+			},
+			"settings": {
+				"accContextClass": "default",
+				"accClasses": false
+			},
+			"content": {
+				"items": [
+					{
+						"itemId": "test-1",
+						"itemBtnText": "Item 1"
+					},
+					{
+						"itemId": "test-2",
+						"itemBtnText": "Item 2"
+					}
+				]
+			}
+		},
+		"singleOpen": {
+			"docs": {
+				"variationName": "Single Open Accordion with Default Openings"
+			},
+			"settings": {
+				"accContextClass": "default",
+				"accClasses": "is-some-modifier",
+				"accJsOptions": {
+					"openIndex": 0,
+					"singleOpen": true
+				}
+			},
+			"content": {
+				"items": [
+					{
+						"itemId": "test-2-1",
+						"itemBtnText": "Item 1"
+					},
+					{
+						"itemId": "test-2-2",
+						"itemBtnText": "Item 2"
+					}
+				]
+			}
+		}
+	}
+}

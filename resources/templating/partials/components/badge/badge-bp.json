@@ -1,0 +1,88 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Default badge",
+				"sectionCenter": true
+			},
+			"settings": {
+				"badgeContextClass": false,
+				"badgeClasses": false
+			},
+			"content": {
+				"badgeType": "default",
+				"badgeContent": "0"
+			}
+		},
+		"error": {
+			"docs": {
+				"variationName": "Error badge",
+				"sectionCenter": true
+			},
+			"settings": {
+				"badgeContextClass": false,
+				"badgeClasses": false
+			},
+			"content": {
+				"badgeType": "error",
+				"badgeContent": "1"
+			}
+		},
+		"success": {
+			"docs": {
+				"variationName": "Success badge",
+				"sectionCenter": true
+			},
+			"settings": {
+				"badgeContextClass": false,
+				"badgeClasses": false
+			},
+			"content": {
+				"badgeType": "success",
+				"badgeContent": "2"
+			}
+		},
+		"notice": {
+			"docs": {
+				"variationName": "Notice badge",
+				"sectionCenter": true
+			},
+			"settings": {
+				"badgeContextClass": false,
+				"badgeClasses": false
+			},
+			"content": {
+				"badgeType": "notice",
+				"badgeContent": "3"
+			}
+		},
+		"alert": {
+			"docs": {
+				"variationName": "Alert badge",
+				"sectionCenter": true
+			},
+			"settings": {
+				"badgeContextClass": false,
+				"badgeClasses": false
+			},
+			"content": {
+				"badgeType": "alert",
+				"badgeContent": "4"
+			}
+		},
+		"longMessage": {
+			"docs": {
+				"variationName": "Long message badge",
+				"sectionCenter": true
+			},
+			"settings": {
+				"badgeContextClass": false,
+				"badgeClasses": false
+			},
+			"content": {
+				"badgeType": "success",
+				"badgeContent": "This is my very long success message ..."
+			}
+		}
+	}
+}

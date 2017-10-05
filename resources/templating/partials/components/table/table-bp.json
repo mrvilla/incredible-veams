@@ -1,0 +1,376 @@
+{
+	"variations": {
+		"tableWithHead": {
+			"docs": {
+				"variationName": "Table with head (top) and caption",
+				"sectionCenter": true
+			},
+			"settings": {
+				"tableContextClass": "zebra",
+				"tableClasses": false
+			},
+			"content": {
+				"tableCaption": "Table Caption",
+				"tableHeader": {
+					"tableRows": [
+						{
+							"settings": {
+								"trClass": false
+							},
+							"content": {
+								"tableCells": [
+									{
+										"settings": {
+											"thTag": true,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "Table"
+										}
+									},
+									{
+										"settings": {
+											"thTag": true,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "with"
+										}
+									},
+									{
+										"settings": {
+											"thTag": true,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "Top"
+										}
+									},
+									{
+										"settings": {
+											"thTag": true,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "head"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				"tableBody": {
+					"tableRows": [
+						{
+							"settings": {
+								"trClass": false
+							},
+							"content": {
+								"tableCells": [
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": "is-bold"
+										},
+										"content": {
+											"cellContent": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+										}
+									}
+								]
+							}
+						},
+						{
+							"settings": {
+								"trClass": false
+							},
+							"content": {
+								"tableCells": [
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": "is-bold"
+										},
+										"content": {
+											"cellContent": "The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "She packed her seven versalia, put her initial into the belt and made herself on the way."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane."
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		},
+		"tableHeadLeft": {
+			"docs": {
+				"variationName": "Table with head (left)",
+				"sectionCenter": true
+			},
+			"settings": {
+				"tableContextClass": "zebra",
+				"tableClasses": false
+			},
+			"content": {
+				"tableCaption": false,
+				"tableHeader": false,
+				"tableBody": {
+					"tableRows": [
+						{
+							"settings": {
+								"trClass": false
+							},
+							"content": {
+								"tableCells": [
+									{
+										"settings": {
+											"thTag": true,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "Table with"
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": "is-bold"
+										},
+										"content": {
+											"cellContent": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": "is-bold"
+										},
+										"content": {
+											"cellContent": "Separated they live in Bookmarksgrove right at the coast of the Semantics"
+										}
+									}
+								]
+							}
+						},
+						{
+							"settings": {
+								"trClass": false
+							},
+							"content": {
+								"tableCells": [
+									{
+										"settings": {
+											"thTag": true,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "left head"
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": "is-bold"
+										},
+										"content": {
+											"cellContent": "The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "She packed her seven versalia, put her initial into the belt and made herself on the way."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": "is-bold"
+										},
+										"content": {
+											"cellContent": "The Big Oxmox advised her not to do so"
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		},
+		"tableWithoutHead": {
+			"docs": {
+				"variationName": "Table without head",
+				"sectionCenter": true
+			},
+			"settings": {
+				"tableContextClass": "zebra",
+				"tableClasses": false
+			},
+			"content": {
+				"tableCaption": false,
+				"tableHeader": false,
+				"tableBody": {
+					"tableRows": [
+						{
+							"settings": {
+								"trClass": false
+							},
+							"content": {
+								"tableCells": [
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "Sometimes it is appropriate to place various typographic elements on the outside of the fucking left margin of text to maintain a strong vertical axis."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "This practice is referred to as exdenting and is most often used with bullets and quotations."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": "is-bold"
+										},
+										"content": {
+											"cellContent": "Design as if your fucking life depended on it."
+										}
+									}
+								]
+							}
+						},
+						{
+							"settings": {
+								"trClass": false
+							},
+							"content": {
+								"tableCells": [
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+										}
+									},
+									{
+										"settings": {
+											"thTag": false,
+											"cellClass": false
+										},
+										"content": {
+											"cellContent": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}

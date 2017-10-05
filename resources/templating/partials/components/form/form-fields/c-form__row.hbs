@@ -1,0 +1,8 @@
+---
+publish: false
+---
+<div class="form__row{{#if settings.rowClasses}} {{settings.rowClasses}}{{/if}}">
+	{{#each content.cols}}
+		{{> c-form__col this}}
+	{{/each}}
+</div>

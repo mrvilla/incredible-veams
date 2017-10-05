@@ -1,0 +1,30 @@
+{
+  "name": "veams-component-form",
+  "version": "3.0.1",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-form.git"
+  },
+  "homepage": "https://github.com/Veams/veams-component-form",
+  "_release": "3.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.1",
+    "commit": "7045f18826a03adfab0f1760cafbcf91c4c40cce"
+  },
+  "_source": "https://github.com/Veams/veams-component-form.git",
+  "_target": "^3.0.1",
+  "_originalSource": "veams-component-form",
+  "_direct": true
+}

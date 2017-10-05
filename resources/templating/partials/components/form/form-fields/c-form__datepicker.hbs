@@ -1,0 +1,27 @@
+---
+publish: false
+---
+<div class="form__datepicker" data-js-module="form-datepicker">
+	{{#if content.label}}
+		<div class="form__label-wrapper">
+			<label for="{{settings.id}}"
+			       class="form__input-label{{#if settings.labelClasses}} {{settings.labelClasses}}{{/if}}">
+				{{content.label}}{{#if settings.required}} <abbr title="Required">*</abbr>{{/if}}
+			</label>
+		</div>
+	{{/if}}
+	<div class="form__input-wrapper">
+		<input id="{{settings.id}}" name="{{settings.id}}" type="{{settings.type}}"
+			{{#if content.placeholder}} placeholder="{{content.placeholder}}{{/if}}
+			{{#if settings.required}}*{{/if}}"
+		{{#each settings.attributes}} {{attrKey}}="{{{attrValue}}}"{{/each}}
+		{{#if settings.required}} required="required"{{/if}}
+		{{#if settings.pattern}} pattern="{{{settings.pattern}}}"{{/if}}
+		class="form__input-text{{#if settings.inputClasses}} {{settings.inputClasses}}{{/if}}"/>
+	</div>
+	{{#if content.errorMessage}}
+		<div class="form__error" hidden="">
+			<p>{{content.errorMessage}}</p>
+		</div>
+	{{/if}}
+</div>

@@ -1,0 +1,66 @@
+/* ===================================================
+COMPONENT: BADGE
+=================================================== */
+
+/* ---------------------------------------------------
+Global Variables
+--------------------------------------------------- */
+$badge-color-alert: #fff6bf;
+$badge-color-error: #fbe3e4;
+$badge-color-notice: #e5edf8;
+$badge-color-success: #e6efc2;
+
+/* ---------------------------------------------------
+Helper mixins
+--------------------------------------------------- */
+@mixin badge($color: #999, $font-size: 2.5rem) {
+	background-color: $color;
+	border-radius: $font-size * 5;
+	color: darken($color, 60%);
+	font-size: $font-size;
+	line-height: 1;
+	padding: 1.2rem 2.7rem;
+}
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-badge"] {
+
+	/*
+	Standard styles
+	----------------------- */
+	display: inline-block;
+
+	/*
+	Content classes
+	----------------------- */
+	.badge__content {
+		@include badge();
+	}
+
+	/*
+	Modifiers
+	----------------------- */
+	.is-alert {
+		@include badge($badge-color-alert);
+	}
+
+	.is-error {
+		@include badge($badge-color-error);
+	}
+
+	.is-notice {
+		@include badge($badge-color-notice);
+	}
+
+	.is-success {
+		@include badge($badge-color-success);
+	}
+}
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+.c-badge--default {
+}

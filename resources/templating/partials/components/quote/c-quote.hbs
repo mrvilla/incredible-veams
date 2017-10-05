@@ -1,0 +1,17 @@
+---
+type: component
+contextData: "quote-bp"
+layout: "lyt-docs"
+publish: true
+scssFiles:
+- _c-quote.scss
+---
+<div class="c-quote{{#if settings.quoteContextClass}}--{{ settings.quoteContextClass}}{{else}}--default{{/if}}{{#if
+		settings.quoteClasses}} {{ settings.quoteClasses}}{{/if}}" data-css="c-quote">
+	<blockquote class="quote__content">
+		{{content.quoteContent}}
+	</blockquote>
+	{{#if content.quoteAuthor}}
+		<cite class="quote__author">{{content.quoteAuthor}}</cite>
+	{{/if}}
+</div>

@@ -1,0 +1,30 @@
+{
+  "name": "veams-component-comparer",
+  "version": "3.0.1",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-comparer.git"
+  },
+  "homepage": "https://github.com/Veams/veams-component-comparer",
+  "_release": "3.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.1",
+    "commit": "355fe96ad4436ebf2a0630c4acff9603cb220acc"
+  },
+  "_source": "https://github.com/Veams/veams-component-comparer.git",
+  "_target": "^3.0.1",
+  "_originalSource": "veams-component-comparer",
+  "_direct": true
+}

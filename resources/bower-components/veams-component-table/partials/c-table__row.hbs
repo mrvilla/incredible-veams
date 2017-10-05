@@ -1,0 +1,5 @@
+<tr class="table__row{{#if settings.trClass}} {{settings.trClass}}{{/if}}">
+	{{#each content.tableCells}}
+		{{> c-table__cell settings=this.settings content=this.content}}
+	{{/each}}
+</tr>

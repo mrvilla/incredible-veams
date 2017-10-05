@@ -1,0 +1,447 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Fields"
+			},
+			"settings": {
+				"formClasses": "is-form",
+				"formContextClass": "default",
+				"formJsOptions": [
+					{
+						"optionsKey": "submitOnChange",
+						"optionsValue": false,
+						"optionsObject": true
+					}
+				],
+				"formAction": "ajax/test.html",
+				"formMethod": "GET",
+				"formAjax": true
+			},
+			"content": {
+				"formTitle": "Nullam mollis varius cursus.",
+				"fieldsets": [
+					{
+						"settings": {
+							"fieldsetClasses": "is-small",
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"legend": "Checkboxes",
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"typeOf": "checkbox",
+													"required": false,
+													"inputClasses": "is-checkboxes"
+												},
+												"content": {
+													"checkboxes": [
+														{
+															"settings": {
+																"wrapperClass": "is-wrapper",
+																"inputClass": false,
+																"required": false,
+																"dataAttr": false,
+																"id": "check-01",
+																"labelClasses": "is-label"
+															},
+															"content": {
+																"label": "Go F_ _ _ Yourself."
+															}
+														}
+													]
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"typeOf": "checkbox",
+													"required": false,
+													"inputClasses": "is-checkboxes"
+												},
+												"content": {
+													"checkboxes": [
+														{
+															"settings": {
+																"wrapperClass": "is-wrapper",
+																"inputClass": false,
+																"required": false,
+																"dataAttr": false,
+																"id": "check-02",
+																"labelClasses": "is-label"
+															},
+															"content": {
+																"label": "F_ _ _ it"
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"settings": {
+							"fieldsetClasses": "is-small",
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"legend": "Radio Buttons",
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"inputClasses": "is-radios",
+													"id": "radios",
+													"required": false,
+													"typeOf": "radio"
+												},
+												"content": {
+													"label": "Label for radio buttons",
+													"radios": [
+														{
+															"settings": {
+																"wrapperClass": "is-radio-wrapper",
+																"inputClass": false,
+																"required": false,
+																"dataAttr": false,
+																"id": "radio-01",
+																"labelClasses": "is-label"
+															},
+															"content": {
+																"label": "Radio 01"
+															}
+														},
+														{
+															"settings": {
+																"wrapperClass": "is-radio-wrapper",
+																"inputClass": false,
+																"required": false,
+																"dataAttr": false,
+																"id": "radio-02",
+																"labelClasses": "is-label"
+															},
+															"content": {
+																"label": "Radio 02"
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"settings": {
+							"fieldsetClasses": "is-small",
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"legend": "Date & Datepicker",
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "datepicker",
+													"inputClasses": "is-datepicker",
+													"required": false,
+													"type": "text",
+													"typeOf": "datepicker"
+												},
+												"content": {
+													"label": "Label for datepicker",
+													"placeholder": "01.01.2017"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"settings": {
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"legend": "Textarea",
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"inputClasses": "is-textarea",
+													"id": "textarea",
+													"required": false,
+													"typeOf": "textarea"
+												},
+												"content": {
+													"label": "Label for textarea",
+													"placeholder": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia..."
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"settings": {
+							"fieldsetClasses": "is-small",
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"legend": "Differen Input Types",
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "email",
+													"required": false,
+													"type": "email",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for email input",
+													"placeholder": "max@mustermann.de"
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "file",
+													"required": false,
+													"type": "file",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for file input"
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "number",
+													"required": false,
+													"type": "number",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for number input"
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "password",
+													"required": false,
+													"type": "password",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for password input",
+													"placeholder": "Password"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"settings": {
+							"fieldsetClasses": "is-small",
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "range",
+													"required": false,
+													"type": "range",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for range input"
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "tel",
+													"required": false,
+													"type": "tel",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for tel input",
+													"placeholder": "12312312"
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "text",
+													"required": false,
+													"type": "text",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for text input",
+													"placeholder": "Simple Placeholder"
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "time",
+													"required": false,
+													"type": "time",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for time input"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"settings": {
+							"fieldsetClasses": "is-small",
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "url",
+													"required": false,
+													"type": "url",
+													"typeOf": "input"
+												},
+												"content": {
+													"label": "Label for url input",
+													"placeholder": "http://www.veams.org/"
+												}
+											},
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-mobile-s-12 is-col-mobile-l-3",
+													"id": "button",
+													"inputClasses": "is-btn",
+													"required": false,
+													"type": "button",
+													"typeOf": "input",
+													"attributes": [
+														{
+															"attrKey": "value",
+															"attrValue": "Submit"
+														}
+													]
+												},
+												"content": {
+													"label": "Label for button input"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"settings": {
+							"legendClasses": "is-col-mobile-p-12"
+						},
+						"content": {
+							"legend": "Submit",
+							"rows": [
+								{
+									"settings": {
+										"rowClasses": "is-grid-row"
+									},
+									"content": {
+										"cols": [
+											{
+												"settings": {
+													"colClasses": "is-grid-col is-col-tablet-p-4",
+													"inputClasses": "is-submit",
+													"id": "submit",
+													"required": false,
+													"typeOf": "submit",
+													"disabled": true
+												},
+												"content": {
+													"label": "Label for submit",
+													"formSubmit": "Send"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

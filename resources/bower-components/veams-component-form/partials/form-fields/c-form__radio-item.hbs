@@ -1,0 +1,15 @@
+---
+publish: false
+---
+<li class="form__radio-item">
+	<input {{#if settings.dataId}}data-id="{{settings.id}}"{{else}} id="{{settings.id}}"{{/if}}
+	       name="radio{{#if settings.radioGroup}}-{{settings.radioGroup}}{{/if}}" type="radio" value="{{settings.id}}"
+	{{#each settings.attributes}} {{attrKey}}="{{{attrValue}}}"{{/each}}
+	{{#if settings.required}} required="required"{{/if}}
+	class="form__radio-input{{#if settings.inputClass}} {{settings.inputClass}}{{/if}}"/>
+	<label for="{{settings.id}}" class="form__radio-label{{#if settings.labelClass}}{{settings.labelClass}}{{/if}}">
+		{{#if settings.labelTextWrap}}<span class="form__radio-label-text">{{/if}}
+		{{{content.label}}}
+		{{#if settings.labelTextWrap}}</span>{{/if}}
+	</label>
+</li>

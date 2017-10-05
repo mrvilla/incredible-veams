@@ -1,0 +1,16 @@
+---
+publish: false
+---
+<div class="form__checkbox">
+	<div class="form__label-wrapper{{#if settings.labelClasses}} {{settings.labelClasses}}{{/if}}">
+		<strong class="form__checkbox-legend">{{content.label}}</strong>
+	</div>
+	<div class="form__checkbox-wrapper">
+		{{#if content.headline}}
+			<h2 class="form__checkbox-headline">{{content.headline}}</h2>
+		{{/if}}
+		{{#each content.checkboxes}}
+			{{> c-form__checkbox-item required=../settings.required}}
+		{{/each}}
+	</div>
+</div>

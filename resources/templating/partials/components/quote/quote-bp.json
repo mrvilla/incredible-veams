@@ -1,0 +1,29 @@
+{
+	"variations": {
+		"simple": {
+			"docs": {
+				"variationName": "Simple quote",
+				"sectionCenter": true
+			},
+			"settings": {
+				"quoteContextClass": false
+			},
+			"content": {
+				"quoteContent": "I have no special talent. I am only passionately curious."
+			}
+		},
+		"full": {
+			"docs": {
+				"variationName": "Full quote",
+				"sectionCenter": true
+			},
+			"settings": {
+				"quoteContextClass": false
+			},
+			"content": {
+				"quoteContent": "Becoming is better than being",
+				"quoteAuthor": "– Carol Dweck"
+			}
+		}
+	}
+}

@@ -1,0 +1,260 @@
+/* ===================================================
+Component: Form
+=================================================== */
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-form"] {
+	/*
+	Fieldset & Legend
+	----------------------- */
+	.form__fieldset {
+
+	}
+
+	.form__legend {
+		margin-bottom: 20px;
+		font-weight: bolder;
+		font-family: cursive;
+		font-size: 120%
+	}
+
+	/*
+	Cols & Rows
+	----------------------- */
+	.form__row {
+		margin-bottom: 30px;
+
+		&.is-small-margin {
+			margin-bottom: 20px;
+		}
+	}
+
+	.form__col {
+		margin-bottom: 2rem;
+
+		&.is-text-center {
+			text-align: center;
+		}
+	}
+
+	/*
+	Labels & Types
+	----------------------- */
+	.form__label-wrapper {
+		margin-bottom: 1rem;
+	}
+
+	// Labels
+	.form__input-label {
+		display: flex;
+	}
+
+	.form__input-wrapper {
+		display: flex;
+	}
+
+	.form__input-text {
+		padding: 8px;
+		border: 1px solid #d2d2d2;
+		width: 100%;
+	}
+
+	.form__input,
+	.form__datepicker {
+		input {
+			padding: 13px;
+			font-size: 14px;
+		}
+
+		#button {
+			background: $color-fuchsia;
+			color: $color-white;
+			cursor: pointer;
+
+			&:hover {
+				cursor: pointer;
+				background-color: darken($color-fuchsia, 20);
+			}
+		}
+	}
+
+	// Radio
+	.form__radio {
+	}
+
+	.form__radio-wrapper {
+	}
+
+	.form__radio-legend {
+	}
+
+	.form__radio-list {
+		display: block;
+	}
+
+	.form__radio-item {
+		display: inline-block;
+		margin-right: 30px;
+	}
+
+	.form__radio-input {
+		@extend %visuallyhidden;
+
+		&:checked {
+			& ~ .form__radio-label {
+				&::before {
+					box-shadow: inset 0 0 0 10px $color-fuchsia;
+					border-color: $color-fuchsia;
+				}
+			}
+		}
+	}
+
+	.form__radio-label {
+		position: relative;
+		padding-left: 45px;
+		line-height: 32px;
+		display: inline-block;
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		&::before {
+			content: '';
+			width: 32px;
+			height: 32px;
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #fff;
+			border-radius: 50%;
+			border: 1px solid #d2d2d2;
+		}
+	}
+
+	// Select
+	.form__select {
+	}
+
+	.form__select-wrapper {
+	}
+
+	.form__select-label {
+	}
+
+	.form__select-field {
+	}
+
+	// Textarea
+	.form__textarea {
+		width: 100%;
+	}
+
+	.form__textarea-wrapper {
+		display: flex;
+	}
+
+	.form__textarea-label {
+		display: flex;
+	}
+
+	.form__textarea-input {
+		padding: 8px;
+		border: 1px solid #d2d2d2;
+		width: 100%;
+	}
+
+	// Checkbox
+	.form__checkbox {
+	}
+
+	.form__checkbox-wrapper {
+	}
+
+	.form__checkbox-legend {
+	}
+
+	.form__checkbox-item {
+	}
+
+	.form__checkbox-input {
+		@extend %visuallyhidden;
+
+		&:checked {
+			& ~ .form__checkbox-label {
+				&::before {
+					content: '✔';
+					background-color: $color-fuchsia;
+					border-color: $color-fuchsia;
+				}
+			}
+		}
+	}
+
+	.form__checkbox-description {
+		margin-top: 20px;
+	}
+
+	.form__checkbox-label {
+		position: relative;
+		padding-left: 45px;
+		line-height: 32px;
+		display: inline-block;
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		&::before {
+			content: '';
+			width: 32px;
+			height: 32px;
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-right: 13px;
+			background: #fff;
+			border-radius: 4px;
+			border: 1px solid #ccc;
+			line-height: 32px;
+			text-align: center;
+			color: #fff;
+		}
+	}
+
+	// Submit
+	.form__submit {
+		@include reset-btn;
+
+		background-color: $color-fuchsia;
+		padding: 1rem 2rem;
+		font-size: 1.8rem;
+		font-weight: 900;
+		color: #fff;
+		cursor: pointer;
+
+		&:hover {
+			cursor: pointer;
+			background-color: darken($color-fuchsia, 20);
+		}
+	}
+
+	.form__submit-text {
+	}
+
+	/*
+	Error
+	----------------------- */
+	.form__error {
+	}
+}
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+.c-form--default {
+}

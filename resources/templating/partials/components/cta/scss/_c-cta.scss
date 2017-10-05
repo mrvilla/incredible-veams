@@ -1,0 +1,29 @@
+/* ===================================================
+CTA COMPONENT
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-cta"] {
+	.cta__icon {}
+	.cta__content {}
+	border: 0;
+	background-color: $color-fuchsia;
+	padding: 1rem 2rem;
+	font-size: 1.8rem;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 1em;
+
+	&:hover {
+		cursor: pointer;
+		background-color: darken($color-fuchsia, 20);
+	}
+}
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+.c-cta--default {
+}

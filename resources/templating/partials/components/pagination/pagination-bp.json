@@ -1,0 +1,22 @@
+{
+	"variations": {
+		"simple": {
+			"docs": {
+				"variationName": "Pagination (Simple)",
+				"sectionCenter": true
+			},
+			"settings": {
+				"pagContextClass": "default",
+				"pagClasses": false
+			},
+			"content": {
+				"pagButtons": {
+					"description": "One Page",
+					"previous": "Back",
+					"next": "Forward"
+				},
+				"pagMax": 12
+			}
+		}
+	}
+}

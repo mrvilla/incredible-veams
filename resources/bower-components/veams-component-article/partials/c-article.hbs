@@ -1,0 +1,23 @@
+---
+publish: false
+---
+<article
+		class="c-article{{#if options.settings.articleContextClass}}--{{options.settings.articleContextClass}}{{else}}--default{{/if}}{{#if options.settings.articleClasses}} {{options.settings.articleClasses}}{{/if}}"
+		data-css="c-article">
+
+	{{#if options.content.articleHeader}}
+		<header class="article__header{{#if options.settings.articleHeaderClasses}} {{options.settings.articleHeaderClasses}}{{/if}}">
+			{{> c-article__header options.content.articleHeader}}
+		</header>
+	{{/if}}
+
+	<div class="article__content{{#if options.settings.articleContentClasses}} {{options.settings.articleContentClasses}}{{/if}}">
+		{{{yield}}}
+	</div>
+
+	{{#if options.content.articleFooter}}
+		<footer class="article__footer {{options.settings.articleFooterClasses}}">
+			{{> c-article__footer options.content.articleFooter}}
+		</footer>
+	{{/if}}
+</article>

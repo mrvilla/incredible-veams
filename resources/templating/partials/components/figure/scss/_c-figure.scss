@@ -1,0 +1,31 @@
+/* ===================================================
+FIGURE COMPONENT
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-figure"] {
+	.figure__wrapper {
+	}
+
+	.figure__caption {
+	}
+
+	.figure__caption-inner {
+		background: $lighten-grey;
+		padding: 0.5em;
+	}
+
+	.figure__caption-headline {
+	}
+
+	.figure__caption-content {
+	}
+}
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+.c-figure--default {
+}

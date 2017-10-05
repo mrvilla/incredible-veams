@@ -1,0 +1,20 @@
+---
+publish: false
+---
+<div class="form__checkbox-item{{#if settings.wrapperClass}} {{settings.wrapperClass}}{{/if}}">
+	<input {{#if settings.dataId}}data-id="{{settings.id}}"{{else}} id="{{settings.id}}"{{/if}}
+	       name="{{settings.id}}"
+	       type="checkbox"
+	{{#each settings.attributes}} {{attrKey}}="{{{attrValue}}}"{{/each}}
+	{{#if settings.required}} required="required"{{/if}}
+	class="form__checkbox-input{{#if settings.inputClass}} {{settings.inputClass}}{{/if}}"/>
+	<label for="{{settings.id}}"
+	       class="form__checkbox-label{{#if settings.labelClasses}} {{settings.labelClasses}}{{/if}}">{{{  content.label }}}{{#if settings.required}}
+		<abbr title="Required">*</abbr>{{/if}}
+	</label>
+	{{#if content.description}}
+		<p class="form__checkbox-description">
+			{{content.description}}
+		</p>
+	{{/if}}
+</div>

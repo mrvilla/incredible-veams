@@ -1,0 +1,34 @@
+{
+  "name": "veams-component-slider",
+  "version": "3.0.3",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@veams.org"
+    },
+    {
+      "name": "Andy Gutsche",
+      "email": "andy@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sebastian-Fitzner/veams-component-slider.git"
+  },
+  "homepage": "https://github.com/Sebastian-Fitzner/veams-component-slider",
+  "_release": "3.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.3",
+    "commit": "4b133e4fa635927c396cdcf24ab732cf1009d810"
+  },
+  "_source": "https://github.com/Sebastian-Fitzner/veams-component-slider.git",
+  "_target": "^3.0.3",
+  "_originalSource": "veams-component-slider",
+  "_direct": true
+}

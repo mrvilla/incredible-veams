@@ -1,0 +1,30 @@
+{
+  "name": "veams-component-toggler",
+  "version": "3.0.3",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Andy Gutsche",
+      "email": "andy@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-toggler.git"
+  },
+  "homepage": "https://github.com/Veams/veams-component-toggler",
+  "_release": "3.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.3",
+    "commit": "df085376dd08fb76779847cf9dc17093fdbb9a03"
+  },
+  "_source": "https://github.com/Veams/veams-component-toggler.git",
+  "_target": "^3.0.3",
+  "_originalSource": "veams-component-toggler",
+  "_direct": true
+}

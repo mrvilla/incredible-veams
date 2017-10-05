@@ -1,0 +1,30 @@
+{
+  "name": "veams-component-overlay",
+  "version": "3.0.0",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-overlay.git"
+  },
+  "homepage": "https://github.com/Veams/veams-component-overlay",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "3f6ccd9f3da8044f0aaff214be33e1b98766b007"
+  },
+  "_source": "https://github.com/Veams/veams-component-overlay.git",
+  "_target": "^3.0.0",
+  "_originalSource": "veams-component-overlay",
+  "_direct": true
+}

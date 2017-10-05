@@ -1,0 +1,25 @@
+---
+type: component
+contextData: figure-bp
+layout: "lyt-docs"
+scssFiles:
+- _c-figure.scss
+---
+<figure class="c-figure{{#if settings.figureContextClass}}--{{settings.figureContextClass}}{{else}}--default{{/if}}{{#if settings.figureClasses}} {{settings.figureClasses}}{{/if}}"
+        data-css="c-figure"{{#if settings.figureId}} id="{{settings.figureId}}"{{/if}}>
+	<div class="figure__wrapper">
+		{{#if (isObject content.figurePicture)}}
+			{{> c-picture content.figurePicture}}
+		{{else}}{{#if (isObject content.figureVideo)}}
+			{{> c-video content.figureVideo}}
+		{{else}}
+			<h2 style="color: red">Please provide a picture or video for your figure!</h2>
+		{{/if}}{{/if}}
+	</div>
+
+	{{#if (isObject content.figureCaption)}}
+		<figcaption class="figure__caption{{#if settings.figureCaptionClasses}} {{settings.figureCaptionClasses}}{{/if}}">
+			{{> c-figure__caption content.figureCaption}}
+		</figcaption>
+	{{/if}}
+</figure>

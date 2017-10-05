@@ -1,0 +1,34 @@
+{
+  "name": "veams-component-table",
+  "version": "3.0.0",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@veams.org"
+    },
+    {
+      "name": "Andy Gutsche",
+      "email": "andy@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-table.git"
+  },
+  "homepage": "https://github.com/Veams/veams-component-table",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "8b6ebaa19388d20aa00b0d29115bb5b4d6dcdfb5"
+  },
+  "_source": "https://github.com/Veams/veams-component-table.git",
+  "_target": "^3.0.0",
+  "_originalSource": "veams-component-table",
+  "_direct": true
+}

@@ -1,0 +1,26 @@
+---
+type: component
+layout: "lyt-docs"
+contextData: "form-bp"
+publish: true
+displayName: "c-form"
+scssFiles:
+  - _c-form.scss
+subTemplates:
+  - c-form
+  - c-form__checkbox
+  - c-form__fieldset
+  - c-form__input
+  - c-form__radio
+  - c-form__select
+  - c-form__submit
+  - c-form__textarea
+  - c-form__datepicker
+---
+{{! wrapWith START: Form }}
+{{#wrapWith "c-form" settings=settings}}
+	{{#each content.fieldsets}}
+		{{> c-form__fieldset}}
+	{{/each}}
+{{/wrapWith}}
+{{! wrapWith END: Form}}

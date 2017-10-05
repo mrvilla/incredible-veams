@@ -1,0 +1,18 @@
+---
+type: component
+layout: "lyt-docs"
+contextData: cta-bp
+displayName: c-cta
+subTemplates:
+- c-cta
+- c-cta__content
+scssFiles:
+- _c-cta.scss
+jsFiles:
+  - cta.js
+---
+{{! WrapWith START: CTA }}
+{{#wrapWith "c-cta" settings=this.settings content=this.content}}
+	{{> c-cta__content this.content}}
+{{/wrapWith}}
+{{! WrapWith END: CTA }}

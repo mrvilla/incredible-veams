@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "include-media": "^1.4.8",
+    "bourbon": "~4.2.7",
+    "neat": "v2.0.0.beta.2",
+    "veams-utility-grid": "^3.0.1"
+  },
+  "name": "incredible-veams"
+}

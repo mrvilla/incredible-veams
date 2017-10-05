@@ -1,0 +1,9 @@
+<div class="c-slide-fox{{#if
+		options.settings.slideFoxContextClass}}--{{options.settings.slideFoxContextClass}}{{else}}--default{{/if}}{{#if
+		options.settings.slideFoxClasses}} {{options.settings.slideFoxClasses}}{{/if}}"
+     data-css="c-slide-fox"
+     data-js-module="slide-fox"
+	{{#if options.settings.slideFoxJsOptions}}
+	 data-js-options='{{stringify options.settings.slideFoxJsOptions}}'{{/if}}>
+	{{{yield}}}
+</div>

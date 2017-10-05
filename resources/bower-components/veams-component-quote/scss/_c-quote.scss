@@ -1,0 +1,54 @@
+/* ===================================================
+COMPONENT: QUOTE
+=================================================== */
+
+/* ---------------------------------------------------
+Global Styles
+--------------------------------------------------- */
+[data-css="c-quote"] {
+
+	.quote__content {
+
+		&::before {
+		}
+	}
+
+	.quote__author {
+	}
+}
+
+/* ---------------------------------------------------
+Context: Default
+--------------------------------------------------- */
+.c-quote--default {
+	max-width: 70%;
+	text-align: left;
+	position: relative;
+
+	.quote__content {
+		padding-left: 5rem;
+		font-size: 3rem;
+		font-weight: 300;
+		line-height: 120%;
+		font-style: italic;
+
+		&::before {
+			content: '"';
+			display: inline;
+			font-weight: 700;
+			font-size: 11rem;
+			position: absolute;
+			left: -2rem;
+			top: 2.5rem;
+		}
+	}
+
+	.quote__author {
+		display: block;
+		padding-left: 5rem;
+		margin-top: 1rem;
+		font-size: 2rem;
+		font-weight: 700;
+		text-align: right;
+	}
+}

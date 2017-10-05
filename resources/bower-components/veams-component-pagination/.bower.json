@@ -1,0 +1,30 @@
+{
+  "name": "veams-component-pagination",
+  "version": "3.0.0",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@veams.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Veams/veams-component-pagination.git"
+  },
+  "homepage": "https://github.com/Veams/veams-component-pagination",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "2d2119222882fe08606ec67199e47b482624ab61"
+  },
+  "_source": "https://github.com/Veams/veams-component-pagination.git",
+  "_target": "^3.0.0",
+  "_originalSource": "veams-component-pagination",
+  "_direct": true
+}

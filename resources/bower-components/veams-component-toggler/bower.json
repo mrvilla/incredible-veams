@@ -1,0 +1,19 @@
+{
+	"name": "veams-component-toggler",
+	"version": "3.0.3",
+	"ignore": [
+		".bowerrc",
+		".gitignore",
+		"bower.json"
+	],
+	"authors": [
+		{
+			"name": "Andy Gutsche",
+			"email": "andy@veams.org"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Veams/veams-component-toggler.git"
+	}
+}

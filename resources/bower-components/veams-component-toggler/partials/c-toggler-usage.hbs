@@ -1,0 +1,38 @@
+---
+type: component
+contextData: "toggler-bp"
+layout: "lyt-docs"
+displayName: c-toggler
+title: "Components | Toggler"
+publish: true
+scssFiles:
+- _c-toggler.scss
+jsFiles:
+- toggler.js
+---
+
+{{#parseJSON '{"settings": {
+				"ctaButton": true,
+				"ctaTarget": "#",
+				"ctaContextClass": "default",
+				"ctaClass": "class",
+				"ctaJsAtom": false,
+				"ctaJsModule": true,
+				"jsOptions": {
+					"globalEvent": "toggler:toggle",
+					"data": "My custom text passed by CTA"
+				}
+			}}'}}
+
+	{{#with @root.cta-bp.variations.withJs}}
+		{{#wrapWith "c-cta" settings=../settings content=this.content}}
+			{{> c-cta__content this.content}}
+		{{/wrapWith}}
+	{{/with}}
+{{/parseJSON}}
+
+{{! wrapWith START: Slider }}
+{{#wrapWith "c-toggler" settings=this.settings content=this.content}}
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa deleniti distinctio eligendi enim explicabo, incidunt laborum laudantium magnam minus mollitia, perspiciatis porro quibusdam quis ratione reiciendis sapiente temporibus vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus commodi corporis dicta excepturi, harum id, magnam maxime minima molestias nam nostrum perspiciatis possimus quaerat quis rerum suscipit ut, voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam aperiam consectetur culpa dolor dolorem esse in, libero magnam maiores, maxime perspiciatis quasi quod quos ratione sed tempore tenetur totam.
+{{/wrapWith}}
+{{! wrapWith END: Slider}}

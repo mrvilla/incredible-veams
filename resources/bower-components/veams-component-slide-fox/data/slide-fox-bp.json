@@ -1,0 +1,14 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Slide Fox (Default)",
+				"sectionCenter": true
+			},
+			"settings": {
+				"slideFoxContextClass": "default",
+				"slideFoxClasses": false
+			}
+		}
+	}
+}

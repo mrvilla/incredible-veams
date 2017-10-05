@@ -1,0 +1,19 @@
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Default",
+				"sectionCenter": true
+			},
+			"settings": {
+				"togglerContextClass": "default",
+				"togglerClasses": false,
+				"togglerJsModule": true,
+				"togglerJsOptions": {
+					"globalEvent": "toggler:toggle"
+				}
+			},
+			"content": {}
+		}
+	}
+}

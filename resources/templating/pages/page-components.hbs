@@ -1,0 +1,275 @@
+---
+title: Build Better Prototypes with Veams
+menuLink: Components
+sortOrder: 02
+---
+
+{{#extend "lyt-default"}}
+	{{#content "main"}}
+
+        {{! CAROUSEL AUTOPLAY IMAGE SLIDER COMPONENT}}
+        {{#with slider-bp.variations.autoplay}}
+            {{! wrapWith START: Slider }}
+            {{#wrapWith "c-slider" settings=this.settings content=this.content}}
+                {{! WrapWith START: Slider List }}
+
+                {{#wrapWith "c-slider__list"}}
+                    {{#times 3}}
+                        {{#wrapWith "c-slider__item"}}
+                            <img class="image" src="https://placehold.it/1920x800" alt="test">
+                        {{/wrapWith}}
+                    {{/times}}
+                {{/wrapWith}}
+                {{! WrapWith END: Slider List }}
+            {{/wrapWith}}
+            {{! wrapWith END: Slider}}
+        {{/with}}
+
+
+        {{! CAROUSEL IMAGE SLIDER WITH MULTIPLE IMAGES COMPONENT}}
+        {{#with slider-bp.variations.multiple}}
+        {{! wrapWith START: Slider }}
+            {{#wrapWith "c-slider" settings=this.settings content=this.content}}
+            {{! WrapWith START: Slider List }}
+                {{#wrapWith "c-slider__list"}}
+                    {{#times 9}}
+                        {{#wrapWith "c-slider__item"}}
+                            <img class="image" src="https://placehold.it/800x400" alt="test">
+                        {{/wrapWith}}
+                    {{/times}}
+                {{/wrapWith}}
+            {{! WrapWith END: Slider List }}
+            {{/wrapWith}}
+        {{! wrapWith END: Slider}}
+        {{/with}}
+
+
+        {{! CAROUSEL NO AUTOPLAY IMAGE SLIDER COMPONENT}}
+        {{#with slider-bp.variations.infinite}}
+        {{! wrapWith START: Slider }}
+            {{#wrapWith "c-slider" settings=this.settings content=this.content}}
+            {{! WrapWith START: Slider List }}
+                {{#wrapWith "c-slider__list"}}
+                    {{#times 2}}
+                        {{#wrapWith "c-slider__item"}}
+                            <img class="image" src="https://placehold.it/800x400" alt="test">
+                        {{/wrapWith}}
+                    {{/times}}
+                {{/wrapWith}}
+            {{! WrapWith END: Slider List }}
+            {{/wrapWith}}
+        {{! wrapWith END: Slider}}
+        {{/with}}
+
+
+        {{! VIDEO COMPONENT}}
+        {{#with video-bp.variations.default}}
+            <h2 class="myHeading">Video <span>{{docs.variationName}}</span></h2>
+            {{> c-video settings=this.settings content=this.content}}
+        {{/with}}
+
+
+        {{! ACCORDION WITH ALL CLOSED COMPONENT}}
+        {{#with accordion-bp.variations.simple}}
+        {{! WrapWith START: Accordion }}
+            {{#wrapWith "c-accordion" settings=this.settings}}
+            {{! WrapWith START: Item }}
+                {{#each content.items}}
+                    {{#wrapWith "c-accordion__item" accItemId=this.itemId accButton=itemBtnText}}
+                        {{itemText}}
+                    {{/wrapWith}}
+                {{/each}}
+            {{! WrapWith END: Item }}
+            {{/wrapWith}}
+        {{! WrapWith END: Accordion }}
+        {{/with}}
+
+
+        {{! ACCORDION WITH ACCORDION OPEN COMPONENT}}
+        {{#with accordion-bp.variations.singleOpen}}
+        {{! WrapWith START: Accordion }}
+            {{#wrapWith "c-accordion" settings=this.settings}}
+            {{! WrapWith START: Item }}
+                {{#each content.items}}
+                    {{#wrapWith "c-accordion__item" accItemId=this.itemId accButton=itemBtnText}}
+                        {{itemText}}
+                    {{/wrapWith}}
+                {{/each}}
+            {{! WrapWith END: Item }}
+            {{/wrapWith}}
+        {{! WrapWith END: Accordion }}
+        {{/with}}
+
+
+        {{! QUOTE WITHOUT CITE COMPONENT}}
+        {{#with quote-bp.variations.simple}}
+            {{> c-quote }}
+        {{/with}}
+
+
+        {{! QUOTE WITH CITE COMPONENT}}
+        {{#with quote-bp.variations.full}}
+            {{> c-quote }}
+        {{/with}}
+
+
+        {{! TABLE HEAD ON TOP COMPONENT}}
+        {{#with table-bp.variations.tableWithHead}}
+            {{> c-table content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! TABLE HEAD IN LEFT COMPONENT}}
+        {{#with table-bp.variations.tableHeadLeft}}
+            {{> c-table content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! TABLE WITHOUT HEAD COMPONENT}}
+        {{#with table-bp.variations.tableWithoutHead}}
+            {{> c-table content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! FORM COMPONENT}}
+        {{! WrapWith START: Form Wrapper }}
+        {{#with form-bp.variations.default}}
+            {{#wrapWith "c-form" settings=settings}}
+                {{#each content.fieldsets}}
+                    {{> c-form__fieldset}}
+                {{/each}}
+            {{/wrapWith}}
+        {{/with}}
+        {{! WrapWith END: Form Wrapper }}
+
+
+        {{! CTA COMPONENT}}
+        {{#with cta-bp.variations.withJs}}
+            {{! WrapWith START: CTA }}
+            {{#wrapWith "c-cta" settings=this.settings content=this.content}}
+                {{> c-cta__content this.content}}
+            {{/wrapWith}}
+        {{! WrapWith END: CTA }}
+        {{/with}}
+
+        {{! TOGGLER COMPONENT}}
+        {{#with toggler-bp.variations.default}}
+            {{#wrapWith "c-toggler" settings=this.settings content=this.content}}
+                {{content.text}}
+            {{/wrapWith}}
+        {{/with}}
+
+
+        {{! COMPARER COMPONENT}}
+        {{#with comparer-bp.variations.default}}
+            {{> c-comparer}}
+        {{/with}}
+
+
+        {{! BADGE DEFAULT COMPONENT}}
+        {{#with badge-bp.variations.default}}
+            {{> c-badge content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! BADGE ERROR COMPONENT}}
+        {{#with badge-bp.variations.error}}
+            {{> c-badge content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! BADGE SUCCESS COMPONENT}}
+        {{#with badge-bp.variations.success}}
+            {{> c-badge content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! BADGE NOTICE COMPONENT}}
+        {{#with badge-bp.variations.notice}}
+            {{> c-badge content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! BADGE ALERT COMPONENT}}
+        {{#with badge-bp.variations.alert}}
+            {{> c-badge content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! BADGE LONG MESSAGE COMPONENT}}
+        {{#with badge-bp.variations.longMessage}}
+            {{> c-badge content=this.content settings=this.settings}}
+        {{/with}}
+
+
+        {{! PAGINATION COMPONENT}}
+        {{#with pagination-bp.variations.simple}}
+            {{> c-pagination}}
+        {{/with}}
+
+
+        {{! PICTURE DEFAULT COMPONENT}}
+        {{#with picture-bp.variations.default}}
+            <h2 class="myHeading">Picture <span>{{docs.variationName}}</span></h2>
+            {{> c-picture}}
+        {{/with}}
+
+
+        {{! PICTURE LAZYLOAD COMPONENT}}
+        {{#with picture-bp.variations.lazyload}}
+            <h2 class="myHeading">Picture <span>{{docs.variationName}}</span></h2>
+            {{> c-picture}}
+        {{/with}}
+
+
+        {{! ARTICLE COMPONENT}}
+        {{#with article-bp.variations.default}}
+            {{#wrapWith "c-article" settings=this.settings content=this.content}}
+                {{content.articleBody.articleText}}
+            {{/wrapWith}}
+        {{/with}}
+
+
+        {{! OVERLAY COMPONENT}}
+        <a class="myOverlay" title="Trigger overlay" data-js-module="cta" data-js-options='{"globalEvent": "overlay:open", "data": "<img src=\"http://placehold.it/1200x650/ff00d0/fff\" />"}'>
+            <img src="http://placehold.it/250x150" alt="">
+        </a>
+
+
+        {{! FIGURE COMPONENT}}
+        {{#with figure-bp.variations.simple}}
+            {{> c-figure}}
+        {{/with}}
+
+        {{#with figure-bp.variations.caption}}
+            {{> c-figure}}
+
+        {{/with}}
+
+        {{#with figure-bp.variations.video}}
+            {{> c-figure}}
+        {{/with}}
+
+
+        {{! RTE COMPONENT}}
+        {{#with rte-bp.variations.single}}
+            {{> c-rte}}
+        {{/with}}
+
+
+        {{! SLIDE-FOX COMPONENT}}
+        <h2>We need some demo text to see the slide fox in action!</h2>
+        {{#times 20}}
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo facilis, ipsum itaque necessitatibus nisi nulla ut veniam veritatis voluptate. Blanditiis consectetur, error excepturi exercitationem facilis ipsum labore nobis odit.</p>
+        {{/times}}
+
+        {{#with slide-fox-bp.variations.default}}
+            {{#wrapWith "c-slide-fox" settings=this.settings}}
+                <a href="#">Link to another page.</a>
+            {{/wrapWith}}
+        {{/with}}
+
+
+    {{! @INSERTPOINT :: @ref: component-partial }}
+	{{/content}}
+{{/extend}}

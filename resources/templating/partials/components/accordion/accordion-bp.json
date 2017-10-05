@@ -1,0 +1,60 @@
+{
+	"variations": {
+		"simple": {
+			"docs": {
+				"variationName": "Simple Accordion"
+			},
+			"settings": {
+				"accContextClass": "default",
+				"accClasses": false
+			},
+			"content": {
+				"items": [
+					{
+						"itemId": "test-1",
+						"itemBtnText": "Item 1",
+						"itemText": "First Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid assumenda, ducimus facilis inventore iste labore laborum libero nam necessitatibus neque nulla numquam perspiciatis rem, repudiandae sed soluta veniam vero."
+					},
+					{
+						"itemId": "test-2",
+						"itemBtnText": "Item 2",
+						"itemText": "Second Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid assumenda, ducimus facilis inventore iste labore laborum libero nam necessitatibus neque nulla numquam perspiciatis rem, repudiandae sed soluta veniam vero."
+					},
+					{
+						"itemId": "test-3",
+						"itemBtnText": "Item 3",
+						"itemText": "Third Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid assumenda, ducimus facilis inventore iste labore laborum libero nam necessitatibus neque nulla numquam perspiciatis rem, repudiandae sed soluta veniam vero."
+					}
+				]
+			}
+		},
+		"singleOpen": {
+			"docs": {
+				"variationName": "Single Open Accordion with Default Openings"
+			},
+			"settings": {
+				"accContextClass": "default",
+				"accClasses": "is-some-modifier",
+				"accJsOptions": {
+					"openIndex": 0,
+					"singleOpen": true,
+					"openAllOnInit": true
+				}
+			},
+			"content": {
+				"items": [
+					{
+						"itemId": "test-2-1",
+						"itemBtnText": "ITEM 1",
+						"itemText": "First Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid assumenda, ducimus facilis inventore iste labore laborum libero nam necessitatibus neque nulla numquam perspiciatis rem, repudiandae sed soluta veniam vero."
+					},
+					{
+						"itemId": "test-2-2",
+						"itemBtnText": "ITEM 2",
+						"itemText": "Second Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid assumenda, ducimus facilis inventore iste labore laborum libero nam necessitatibus neque nulla numquam perspiciatis rem, repudiandae sed soluta veniam vero."
+					}
+				]
+			}
+		}
+	}
+}

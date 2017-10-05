@@ -1,0 +1,23 @@
+{
+	"name": "veams-component-slide-fox",
+	"version": "3.0.1",
+	"ignore": [
+		".bowerrc",
+		".gitignore",
+		"bower.json"
+	],
+	"authors": [
+		{
+			"name": "Andy Gutsche",
+			"email": "andy@veams.org"
+		},
+		{
+			"name": "Sebastian Fitzner",
+			"email": "sebastian@veams.org"
+		}
+	],
+	"repository": {
+	  "type": "git",
+	  "url": "git://github.com/Veams/veams-component-slide-fox.git"
+	}
+}

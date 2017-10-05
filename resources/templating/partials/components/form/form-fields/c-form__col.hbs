@@ -1,0 +1,26 @@
+---
+publish: false
+---
+<div class="form__col{{#if settings.colClasses}} {{settings.colClasses}}{{/if}}">
+	{{#is settings.typeOf "input"}}
+		{{> c-form__input }}
+	{{else}}{{#is settings.typeOf "textarea"}}
+		{{> c-form__textarea }}
+	{{ else }}{{#is settings.typeOf "select"}}
+		{{> c-form__select }}
+	{{ else }}{{#is settings.typeOf "info"}}
+		{{> c-form__info }}
+	{{ else }}{{#is settings.typeOf "radio"}}
+		{{> c-form__radio this }}
+	{{ else }}{{#is settings.typeOf "checkbox"}}
+		{{> c-form__checkbox this }}
+	{{ else }}{{#is settings.typeOf "submit"}}
+		{{> c-form__submit }}
+	{{ else }}{{#is settings.typeOf "text"}}
+		{{> c-form__text }}
+	{{ else }}{{#is settings.typeOf "datepicker"}}
+		{{> c-form__datepicker }}
+
+	{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}{{/is}}
+
+</div>

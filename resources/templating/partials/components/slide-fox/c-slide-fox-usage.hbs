@@ -1,0 +1,26 @@
+---
+type: component
+layout: "lyt-docs"
+contextData: slide-fox-bp
+displayName: c-slide-fox
+subTemplates:
+- c-slide-fox
+scssFiles:
+- _c-slide-fox.scss
+jsFiles:
+- slide-fox.js
+---
+<h2>We need some demo text to see the slide fox in action!</h2>
+{{#times 20}}
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo facilis, ipsum itaque necessitatibus nisi
+		nulla ut veniam veritatis voluptate. Blanditiis consectetur, error excepturi exercitationem facilis ipsum labore
+		nobis odit.</p>
+{{/times}}
+
+{{#wrapWith "c-slide-fox" settings=this.settings}}
+	{{#with @root.article-bp.variations.default}}
+		{{#wrapWith "c-article" settings=this.settings content=this.content}}
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam architecto atque cupiditate dicta earum ex facilis harum incidunt, laboriosam officiis placeat quas recusandae, rerum, sit tempore tenetur. Impedit, velit.
+		{{/wrapWith}}
+	{{/with}}
+{{/wrapWith}}

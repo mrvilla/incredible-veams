@@ -1,0 +1,30 @@
+{
+	"variations": {
+		"single": {
+			"docs": {
+				"variationName": "Markdown file with full path"
+			},
+			"settings": {
+				"rteContextClass": "content",
+				"rteClasses": "is-small"
+			},
+			"content": {
+				"rteMd": "resources/templating/partials/components/rte/markdown/text.md"
+			}
+		},
+		"cwdMd": {
+			"docs": {
+				"variationName": "Markdown file in current working directory"
+			},
+			"settings": {
+				"rteContextClass": "content",
+				"rteClasses": "is-small",
+				"rteCWD": true,
+				"rteCWDLevelUp": 1
+			},
+			"content": {
+				"rteMd": "markdown/text.md"
+			}
+		}
+	}
+}
