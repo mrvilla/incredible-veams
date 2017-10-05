@@ -25,7 +25,7 @@ config.options = {
 		// dev/working folder
 		dev: '_output',
 		// dist folder with minified and optimized files
-		dist: '_dist',
+		dist: 'docs',
 		// Veams config paths
 		page: srcPath + '/templating/pages',
 		global: partialsPath + '/globals',
