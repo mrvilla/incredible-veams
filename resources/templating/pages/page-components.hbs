@@ -231,9 +231,13 @@ sortOrder: 02
 
 
         {{! OVERLAY COMPONENT}}
-        <a class="myOverlay" title="Trigger overlay" data-js-module="cta" data-js-options='{"globalEvent": "overlay:open", "data": "<img src=\"http://placehold.it/1200x650/ff00d0/fff\" />"}'>
-            <img src="http://placehold.it/250x150" alt="">
-        </a>
+        {{#with cta-bp.variations.overlay}}
+        {{! WrapWith START: CTA }}
+	        {{#wrapWith "c-cta" settings=this.settings content=this.content}}
+		        <img src="http://placehold.it/250x150/ff00d0/fff" alt="">
+	        {{/wrapWith}}
+        {{! WrapWith END: CTA }}
+        {{/with}}
 
 
         {{! FIGURE COMPONENT}}

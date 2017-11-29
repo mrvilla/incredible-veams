@@ -150,6 +150,7 @@ class CTA extends VeamsComponent {
 	 * @param {event} e - event object
 	 */
 	onClick(e) {
+		console.log('ready');
 		e.preventDefault();
 
 		if (typeof this.clickHandler === 'function') {

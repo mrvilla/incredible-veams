@@ -27,3 +27,12 @@ Context: Default
 --------------------------------------------------- */
 .c-cta--default {
 }
+
+/* ---------------------------------------------------
+Context: Overlay Trigger
+--------------------------------------------------- */
+.c-cta--overlay-trigger {
+	display: inline-block;
+	padding: 0;
+	line-height: 0;
+}

@@ -46,6 +46,32 @@
 					"ctaContent": "Button"
 				}
 			}
+		},
+		"overlay": {
+			"docs": {
+				"variationName": "CTA as trigger for overlay",
+				"sectionCenter": true
+			},
+			"settings": {
+				"ctaButton": false,
+				"ctaTarget": "#",
+				"ctaContextClass": "overlay-trigger",
+				"ctaClass": "",
+				"ctaJsItem": false,
+				"ctaJsModule": true,
+				"jsOptions": {
+					"globalEvent": "overlay:open",
+					"data": "<img src=\"http://placehold.it/1200x650/ff00d0/fff\" />"
+				}
+			},
+			"content": {
+				"settings": {
+					"ctaIcon": true
+				},
+				"content": {
+					"ctaContent": "Div"
+				}
+			}
 		}
 	}
 }
